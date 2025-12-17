@@ -22,7 +22,7 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
-    - name: Build with Maven
+    - name: Build with Maven build
       run: |
            mvn -B package --file pom.xml
            mkdir artifacts && cp target/*.jar artifacts
