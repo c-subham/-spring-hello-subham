@@ -21,7 +21,7 @@ mvn spring-boot:run
 Application.java
 ```
 
-- From executable jar file
+- From executable jar file(hh)
 ```
 mvn clean install
 java -jar target/helloworld-0.0.1-SNAPSHOT.jar
